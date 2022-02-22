@@ -20,6 +20,8 @@ python3 wol_client-server.py <ip-address-of-main-server> <change> <change-mac-ad
   By default, only the IP address of the main server is required. But if a change is needed, one can use <change> argument as -add or -remove and enter the attributes afterwards.
   
   Add or remove operations are only made here as they apply to the main server as well.
+  
+  pairs.txt should be present in the same folder as wol_client-server.py to maintain previously added addresses and keys at every start.
 ## Main Server
 -to be described-
 Execute mac_server.py with no arguments.
